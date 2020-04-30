@@ -1,0 +1,33 @@
+.containersBooks{
+	display: flex;
+	flex-direction: column;
+	margin: $s-size;
+	justify-content: space-evenly;
+}
+
+@media (min-width: $desktop-breakpoint){
+	.containersBooks{
+	flex-direction: row;
+	}
+}
+
+.containersBooks__books{
+	display: flex;
+	flex-direction: column;
+	width: 35rem;
+	height: 60rem;
+	align-items: stretch;
+}
+
+.containersBooks__books__title{
+	
+}
+
+.containersBooks__books__container{
+	background: $green-grey;
+	box-shadow: inset 0 0 5px black;
+	border-radius:5px;
+	overflow: scroll;
+	flex-grow:1;
+
+}

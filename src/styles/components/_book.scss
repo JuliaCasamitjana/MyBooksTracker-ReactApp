@@ -1,0 +1,36 @@
+.bookBox{
+	display: flex;
+	background-color: $grey;
+	border-radius:5px;
+	padding:5px;
+	box-shadow: inset 0 0 5px black;
+	flex-grow:1;
+	margin: 2px;
+	color:white;
+
+}
+
+.bookBox-wrapper{
+display: flex;
+border-radius:5px;
+
+}
+
+.bookBox__text{
+	width: 100%;
+	word-break: break-all;
+	word-break: break-all;
+	margin:0.3rem;
+}
+
+.bookBox__text__title{
+	font-weight: 500;
+	font-size:$m-size;
+	margin:0.3rem;
+}
+
+.bookBox__text__author{
+	margin:0.3rem;
+	color:darken(white, 40%);
+	
+}

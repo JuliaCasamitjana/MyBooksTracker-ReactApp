@@ -1,0 +1,20 @@
+.header {
+	background: $yellow;
+	margin-bottom: $s-size;
+	padding: $s-size 0;
+	color: $grey;
+
+}
+.header__title {
+margin:0.2rem;
+}
+
+.header__subtitle {
+	margin:0.2rem;
+}
+
+@media (min-width: $desktop-breakpoint){
+	.header{
+	margin-bottom: 0.1rem;
+	}
+}

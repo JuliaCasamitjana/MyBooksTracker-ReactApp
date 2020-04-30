@@ -1,0 +1,23 @@
+.formBook{
+display: flex;
+flex-direction: column;
+margin-top: 0.5rem;
+
+}
+
+.formBook input, textarea{
+
+	background:$grey;
+	border: none;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px;
+	box-sizing:border-box;
+	border-bottom: .2rem solid darken($grey, 40%);
+	color:white;
+
+}
+
+.formBook textarea{
+	height: 7rem;
+}

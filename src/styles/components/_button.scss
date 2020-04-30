@@ -1,0 +1,34 @@
+.button{
+	background: $yellow;
+	border:none;
+	padding:5px;
+	margin:5px 5px 5px 3px;
+	box-shadow: 0 0 5px black;
+	border-radius:5px;
+}
+.removeButton{
+	background: none;
+	align-self: flex-start;
+	border:none;
+	color: darken($yellow, 30%);
+}
+
+.detailsButton{
+	background: none;
+	border:none;
+	color:darken($yellow, 30%);
+	font-size: $s-size;
+	text-decoration: underline;
+	float: right;
+}
+
+	.addButton{
+	background: $yellow;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: $m-size;
+	}
+
+
+
